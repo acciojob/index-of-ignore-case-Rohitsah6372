@@ -1,8 +1,8 @@
 function indexOfIgnoreCase(s1, s2) {
 	
-	s1.tolowerCase();
-	s2.tolowerCase();
-	return s1.indexOf(s2);
+	const subs1 =s1.toLowerCase();
+	const subs2 = s2.toLowerCase();
+	return subs1.indexOf(subs2);
 	
 	
 }
